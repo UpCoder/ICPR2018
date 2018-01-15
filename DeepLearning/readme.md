@@ -1,0 +1,3 @@
+- Frid-Adar 该文件夹是用来验证Frid-Adar multi scale的想法
+- Patched 该文件夹是只是用了ｐａｔｃｈ的结果
+- Patch_ROI 该文件夹是使用了Ｐａｔｃｈ和ＲＯＩ的结果
