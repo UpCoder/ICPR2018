@@ -1,0 +1,16 @@
+- classification_heatingmap.py
+    - 该文件主要是用来实现slice-level的分类结果，对Generate_heatingmap.py生成的heatingmap提取特征，然后分类
+- generate_heatingmap.py
+    - 该文件主要利用训练好的模型，针对每一个ROI生成对应的labelmap
+- image_processing.py
+    - 封装了一下tensorflow下面的图像预处理的操作
+- load_liver_density.py
+    - 加载肝脏密度
+- resnet.py
+    - resnet的网络结构，包括conv、FC、BN等实现
+- resnet_train_DIY.py
+    - 训练我们上面的resnet网络的文件
+- train_imagenet_DIY.py
+    - 调用resnet_train_DIY的文件
+- val_DIY.py
+    - 使用验证集数据，验证我们模型的效果（patch-level的效果）
