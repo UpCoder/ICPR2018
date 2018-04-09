@@ -221,6 +221,7 @@ def split_mask_image(total_mask_image_path, save_paths):
                     print len(points)
 
 
+
 # 根据Srrid判断所属的类别
 def get_lesion_type_by_srrid(srrid):
     for key in Config.LESION_TYPE_RANGE.keys():
@@ -272,7 +273,6 @@ def get_total_masks(dir_path, dirs=['LiverMask', 'TumorMask']):
         tumors['TumorMask'] = tumors_mask
     return tumors
 
-
 # 获取label的分布
 def get_distribution_label(labels):
     min_value = np.min(labels)
@@ -291,6 +291,7 @@ def compress22dim(image):
         return np.squeeze(image)
     else:
         return image
+
 def shuffle_array(paths):
     '''
     将一个数组打乱
@@ -315,9 +316,17 @@ def shuffle_image_label(images, labels):
     for cur_index in random_index:
         new_images.append(images[cur_index])
     return new_images, labels
+
 def resize_image(image, size):
     image = Image.fromarray(np.asanyarray(image, np.uint8))
     return image.resize((size, size))
+
+
+def resize_image(image, size):
+    image = Image.fromarray(np.asanyarray(image, np.uint8))
+    return image.resize((size, size))
+
+
 def get_boundingbox(mask_image):
     '''
     返回mask生成的bounding box
@@ -339,6 +348,7 @@ def cal_liver_average(mhd_image, liver_mask_image):
     liver_mask_image[mhd_image_copy < 30] = 0
     # liver_mask_image[mhd_image_copy]
     return (1.0 * np.sum(mhd_image[liver_mask_image == 2])) / (1.0 * np.sum(liver_mask_image == 2))
+
 # 将数据按照指定的方式排序
 def changed_shape(image, shape):
     new_image = np.zeros(
@@ -423,6 +433,7 @@ def acc_binary_acc(logits, label):
             acc_count += 1
     return (1.0 * acc_count) / (1.0 * len(logits))
 
+
 # 计算Ａｃｃｕｒａｃｙ，并且返回每一类最大错了多少个
 def calculate_acc_error(logits, label, show=True):
     error_index = []
@@ -456,6 +467,7 @@ def get_shuffle_index(n):
     random_index = range(n)
     np.random.shuffle(random_index)
     return random_index
+
 
 
 # 对所有病灶进行线性增强
