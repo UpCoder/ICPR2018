@@ -1,0 +1,10 @@
+training max accuracy is  1.0 valication max accuracy is  0.85534591195
+target_c is  16  target_g is  9.53674316406e-07
+label is 0, error number is 10, all number is 48, acc is 0.791667
+error record　is  [2, 2, 2, 1, 2, 2, 1, 2, 2, 2]
+label is 1, error number is 2, all number is 34, acc is 0.941176
+error record　is  [3, 3]
+label is 2, error number is 8, all number is 51, acc is 0.843137
+error record　is  [3, 3, 3, 1, 3, 1, 3, 3]
+label is 3, error number is 3, all number is 26, acc is 0.884615
+error record　is  [2, 2, 2]

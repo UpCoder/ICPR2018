@@ -29,8 +29,8 @@ def load_vocabulary(data_dir):
         vocabulary_dict[int(float(name))] = np.load(vocabulary_path)
     return vocabulary_dict
 
-def generate_representor(data_dir, patch_dir, subclass):
-    vocabulary_dict = load_vocabulary(patch_dir)
+def generate_representor(data_dir, dictionary_path, subclass):
+    vocabulary_dict = load_vocabulary(dictionary_path)
     shape_vocabulary = np.shape(vocabulary_dict[0])
     vocabulary_size = shape_vocabulary[0]
     representers = []
@@ -65,13 +65,40 @@ def execute_classify(train_features, train_labels, val_features, val_labels, tes
     print 'ACA is ', accs
     return accs
 
-def generate_representor_multidir(data_dir, patch_dir):
-    train_features, train_labels = generate_representor(data_dir, patch_dir=patch_dir,
-                                                         subclass='train')
-    test_features, test_labels = generate_representor(data_dir, patch_dir=patch_dir,
-                                                      subclass='test')
-    val_features, val_labels = generate_representor(data_dir, patch_dir=patch_dir, subclass='val')
-    execute_classify(train_features, train_labels, val_features, val_labels, test_features, test_labels)
+def generate_representor_multidir(data_dir, patch_dir, reload=None):
+    import scipy.io as scio
+    if reload is None:
+        train_features, train_labels = generate_representor(data_dir, dictionary_path=patch_dir,
+                                                            subclass='train')
+        scio.savemat('./training.mat', {
+            'features': train_features,
+            'labels': train_labels
+        })
+        test_features, test_labels = generate_representor(data_dir, dictionary_path=patch_dir,
+                                                          subclass='test')
+        scio.savemat('./testing.mat', {
+            'features': test_features,
+            'labels': test_labels
+        })
+        val_features, val_labels = generate_representor(data_dir, dictionary_path=patch_dir, subclass='val')
+        scio.savemat('./validation.mat', {
+            'features': val_features,
+            'labels': val_labels
+        })
+    else:
+        train_data = scio.loadmat('./training.mat')
+        train_features = train_data['features']
+        train_labels = train_data['labels']
+
+        test_data = scio.loadmat('./testing.mat')
+        test_features = test_data['features']
+        test_labels = test_data['labels']
+
+        val_data = scio.loadmat('./validation.mat')
+        val_features = val_data['features']
+        val_labels = val_data['labels']
+    acc = execute_classify(train_features, train_labels, val_features, val_labels, test_features, test_labels)
+    return acc
 if __name__ == '__main__':
     generate_representor_multidir(patch_dir='/home/give/Documents/dataset/ICPR2018/BoVW-TextSpecific',
                                   data_dir='/home/give/Documents/dataset/MedicalImage/MedicalImage/SL_TrainAndVal/ICIP')

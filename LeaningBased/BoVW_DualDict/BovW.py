@@ -32,11 +32,14 @@ def load_raw_liver_density(data_dir='/home/give/PycharmProjects/MedicalImage/liv
             total_liver_density[key] = np.array(value).squeeze()
     return total_liver_density
 liver_density_dict = load_raw_liver_density()
+
+
 def load_patch(patch_path):
     if patch_path.endswith('.jpg'):
         return Image.open(patch_path)
     if patch_path.endswith('.npy'):
         return np.load(patch_path)
+
 
 def generate_density_feature(data_dir):
     print 'extracting features start from ', data_dir
@@ -91,6 +94,8 @@ def do_kmeans(fea, vocabulary_size=128):
     # )
     print np.shape(cluster_centroid_objs)
     return cluster_centroid_objs
+
+
 def extract_interior_patch_npy(dir_name, suffix_name, patch_size, patch_step=1, flatten=False):
     '''
     提取指定类型病灶的ｐａｔｃｈ 保存原始像素值，存成ｎｐｙ的格式
@@ -246,6 +251,7 @@ def extract_boundary_patch_npy(dir_name, suffix_name, patch_size, patch_step=1, 
     print count
     return patches_arr
 
+
 def extract_interior_boundary_patch_npy(dir_name, suffix_name, patch_size, patch_step=1, flatten=False):
     '''
     提取指定类型病灶的ｐａｔｃｈ 保存原始像素值，存成ｎｐｙ的格式
@@ -348,6 +354,7 @@ def extract_interior_boundary_patch_npy(dir_name, suffix_name, patch_size, patch
     print np.shape(boundary_patches_arr)
     return boundary_patches_arr, interior_patches_arr
 
+
 def extract_patch(dir_name, suffix_name, patch_size, patch_step=1, flatten=False):
     '''
     提取指定类型病灶的ｐａｔｃｈ
@@ -409,6 +416,7 @@ def extract_patch(dir_name, suffix_name, patch_size, patch_step=1, flatten=False
             patches_arr.append(patches)
     return np.array(patches_arr)
 
+
 def generate_train_val_features(boundary_cluster_centroid_path, interior_cluster_centriod_path, extract_patch_function):
     train_boundary_patches = []
     train_interior_patches = []
@@ -435,7 +443,7 @@ def generate_train_val_features(boundary_cluster_centroid_path, interior_cluster
     val_labels = []
     for i in range(category_number):
         boundary_patches, interior_patches = extract_patch_function(
-            '/home/give/Documents/dataset/MedicalImage/MedicalImage/SL_TrainAndVal/ICIP/test',
+            '/home/give/Documents/dataset/MedicalImage/MedicalImage/SL_TrainAndVal/ICIP/val',
             str(i),
             patch_size=(patch_size + 1),
             flatten=True
@@ -450,8 +458,29 @@ def generate_train_val_features(boundary_cluster_centroid_path, interior_cluster
     print 'train_boundary_patches shape is ', np.shape(val_boundary_patches)
     print 'train_interior_patches shape is ', np.shape(val_interior_patches)
 
+    test_boundary_patches = []
+    test_interior_patches = []
+    test_labels = []
+    for i in range(category_number):
+        boundary_patches, interior_patches = extract_patch_function(
+            '/home/give/Documents/dataset/MedicalImage/MedicalImage/SL_TrainAndVal/ICIP/test',
+            str(i),
+            patch_size=(patch_size + 1),
+            flatten=True
+        )
+        test_labels.extend([i] * len(boundary_patches))
+        test_boundary_patches.extend(
+            boundary_patches
+        )
+        test_interior_patches.extend(interior_patches)
+    test_boundary_patches = np.array(test_boundary_patches)
+    test_interior_patches = np.array(test_interior_patches)
+    print 'train_boundary_patches shape is ', np.shape(test_boundary_patches)
+    print 'train_interior_patches shape is ', np.shape(test_interior_patches)
+
     boundary_cluster_centroid_arr = np.load(boundary_cluster_centroid_path)
     interior_cluster_centroid_arr = np.load(interior_cluster_centriod_path)
+
     train_boundary_features = []
     train_interior_features = []
     for i in range(len(train_boundary_patches)):
@@ -461,6 +490,7 @@ def generate_train_val_features(boundary_cluster_centroid_path, interior_cluster
         train_interior_features.append(
             generate_patches_representer(train_interior_patches[i], interior_cluster_centroid_arr).squeeze()
         )
+
     val_boundary_features = []
     val_interior_features = []
     for i in range(len(val_boundary_patches)):
@@ -469,6 +499,16 @@ def generate_train_val_features(boundary_cluster_centroid_path, interior_cluster
         )
         val_interior_features.append(
             generate_patches_representer(val_interior_patches[i], interior_cluster_centroid_arr).squeeze()
+        )
+
+    test_boundary_features = []
+    test_interior_features = []
+    for i in range(len(val_boundary_patches)):
+        test_boundary_features.append(
+            generate_patches_representer(test_boundary_features[i], boundary_cluster_centroid_arr).squeeze()
+        )
+        test_interior_features.append(
+            generate_patches_representer(test_interior_features[i], interior_cluster_centroid_arr).squeeze()
         )
     print 'the shape of train boundary features is ', np.shape(train_boundary_features)
     print 'the shape of train interior features is ', np.shape(train_interior_features)
@@ -484,7 +524,8 @@ def generate_train_val_features(boundary_cluster_centroid_path, interior_cluster
     #     }
     # )
     return train_boundary_features, train_interior_features, train_labels, \
-           val_boundary_features, val_interior_features, val_labels
+           val_boundary_features, val_interior_features, val_labels, test_boundary_features, test_interior_features, test_labels
+
 
 def cal_distance(patches, center):
     '''
@@ -503,6 +544,7 @@ def cal_distance(patches, center):
         for j in range(len(center2sum)):
             distance_arr[i, j] = patches2sum[i] + center2sum[j] - 2 * patchdotcenter[i, j]
     return distance_arr
+
 
 def generate_patches_representer(patches, cluster_centers):
     '''
@@ -524,6 +566,7 @@ def generate_patches_representer(patches, cluster_centers):
         represented_vector[0, min_index] += 1
     return represented_vector
 
+
 def generate_dictionary(patch_dir, cluster_save_path, target_labels=[0, 1, 2, 3], cluster_num=256, pre_class_num=30000):
     from LeaningBased.selected_patches import return_patches_multidir
     features = return_patches_multidir(
@@ -536,13 +579,17 @@ def generate_dictionary(patch_dir, cluster_save_path, target_labels=[0, 1, 2, 3]
     np.save(cluster_save_path, vocabulary)
 
 
-def execute_classify(train_features, train_labels, test_features, test_labels):
+def execute_classify(train_features, train_labels, val_features, val_labels, test_features, test_labels):
     from LeaningBased.BoVW_DualDict.classification import SVM, LinearSVM, KNN
-    predicted_label, c_params, g_params, target_c, target_g, accs = SVM.do(train_features, train_labels, test_features,
-                                                                           test_labels,
-                                                                           adjust_parameters=True)
+    predicted_label, c_params, g_params, max_c, max_g, accs = SVM.do(train_features, train_labels, val_features,
+                                                                     val_labels,
+                                                                     adjust_parameters=True)
+    predicted_label, accs = SVM.do(train_features, train_labels, test_features, test_labels,
+                                   adjust_parameters=False, C=max_c, gamma=max_g)
     calculate_acc_error(predicted_label, test_labels)
+    print 'ACA is ', accs
     return accs
+
 if __name__ == '__main__':
     iterator_num = 20
     for iterator_index in range(10, iterator_num):
@@ -564,7 +611,7 @@ if __name__ == '__main__':
 
         # 构造特征
         train_boundary_features, train_interior_features, train_labels, \
-        val_boundary_features, val_interior_features, val_labels = generate_train_val_features(
+        val_boundary_features, val_interior_features, val_labels, test_boundary_features, test_interior_features, test_labels = generate_train_val_features(
             './boundary_dictionary.npy',
             './interior_dictionary.npy',
             extract_interior_boundary_patch_npy)
@@ -573,21 +620,26 @@ if __name__ == '__main__':
             {
                 'train_features': np.concatenate([train_boundary_features, train_interior_features], axis=1),
                 'train_labels': train_labels,
-                'test_features': np.concatenate([val_boundary_features, val_interior_features], axis=1),
-                'test_labels': val_labels
+                'val_features': np.concatenate([val_boundary_features, val_interior_features], axis=1),
+                'val_labels': val_labels,
+                'test_features': np.concatenate([test_boundary_features, test_interior_features], axis=1),
+                'test_labels': test_labels
             }
         )
+
 
         # 丢进分类器训练
         data = scio.loadmat('./features.mat')
         train_features = data['train_features']
         train_labels = data['train_labels']
+        val_features = data['val_features']
+        val_labels = data['val_labels']
         test_features = data['test_features']
-        test_labels = data['test_labels']
-        accs = execute_classify(train_features, train_labels, test_features, test_labels)
+        test_label = data['test_labels']
+        accs = execute_classify(train_features, train_labels, val_features, val_labels, test_features, test_labels)
 
         # 保存结果
-        parent_dir = '/home/give/PycharmProjects/ICPR2018/LeaningBased/BoVW_DualDict/find_best'
+        parent_dir = '/home/give/PycharmProjects/ICPR2018/LeaningBased/BoVW_DualDict/find_best1'
         cur_dir = os.path.join(parent_dir, str(iterator_index) + '_' + str(max(accs)))
         if not os.path.exists(cur_dir):
             os.mkdir(cur_dir)

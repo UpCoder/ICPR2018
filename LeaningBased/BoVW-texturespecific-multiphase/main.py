@@ -2,6 +2,7 @@ import os
 import numpy as np
 from ExtractPatches import extract_patches_multidir
 from utils.Tools import calculate_acc_error
+import scipy.io as scio
 
 def cal_distance(patches, center):
     '''
@@ -22,45 +23,35 @@ def cal_distance(patches, center):
     return distance_arr
 
 def load_vocabulary(data_dir):
-    return np.load(data_dir)
+    names = os.listdir(data_dir)
+    vocabulary_dict = {}
+    for name in names:
+        vocabulary_path = os.path.join(data_dir, name, 'vocabulary.npy')
+        vocabulary_dict[int(float(name))] = np.load(vocabulary_path)
+    return vocabulary_dict
 
-
-def generate_representor(data_dir, dictionary_path, subclass):
-    dictionary = load_vocabulary(dictionary_path)
-    shape_vocabulary = np.shape(dictionary)
+def generate_representor(data_dir, patch_dir, subclass):
+    vocabulary_dict = load_vocabulary(patch_dir)
+    shape_vocabulary = np.shape(vocabulary_dict[0])
     vocabulary_size = shape_vocabulary[0]
     representers = []
     patches, coding_labeles, labeles = extract_patches_multidir(data_dir, subclasses=[subclass], return_flag=True)
-    all_patches = []
-    counts = []
     for case_index, cur_patches in enumerate(patches):
-        print np.shape(cur_patches)
-        all_patches.extend(cur_patches)
-        counts.append(len(cur_patches))
-    all_distance_arr = cal_distance(all_patches, dictionary)
-    start = 0
-    for case_index, count in enumerate(counts):
-        distance_arr = all_distance_arr[start: start + count]
-        cur_case_representor = np.zeros([1, vocabulary_size])
-        for i in range(len(distance_arr)):
-            min_index = np.argmin(distance_arr[i])
-            cur_case_representor[0, min_index] += 1
-        representers.append(cur_case_representor.squeeze())
-        start += count
-        # patches_coding_labeles = {}
-        # for patch_index, cur_patch in enumerate(cur_patches):
-        #     cur_coding_label = coding_labeles[case_index][patch_index]
-        #     if cur_coding_label not in patches_coding_labeles.keys():
-        #         patches_coding_labeles[cur_coding_label] = []
-        #     patches_coding_labeles[cur_coding_label].append(cur_patch)
-        # for key in patches_coding_labeles.keys():
-        #     cur_patches_coding_label = patches_coding_labeles[key]
-        #     cur_vocabulary = vocabulary_dict[key]
-        #     distance_arr = cal_distance(cur_patches_coding_label, cur_vocabulary)
-        #     for i in range(len(distance_arr)):
-        #         min_index = np.argmin(distance_arr[i])
-        #         cur_case_representor[int(key), min_index] += 1
-        # representers.append(cur_case_representor.flatten())
+        cur_case_representor = np.zeros([10, vocabulary_size])
+        patches_coding_labeles = {}
+        for patch_index, cur_patch in enumerate(cur_patches):
+            cur_coding_label = coding_labeles[case_index][patch_index]
+            if cur_coding_label not in patches_coding_labeles.keys():
+                patches_coding_labeles[cur_coding_label] = []
+            patches_coding_labeles[cur_coding_label].append(cur_patch)
+        for key in patches_coding_labeles.keys():
+            cur_patches_coding_label = patches_coding_labeles[key]
+            cur_vocabulary = vocabulary_dict[key]
+            distance_arr = cal_distance(cur_patches_coding_label, cur_vocabulary)
+            for i in range(len(distance_arr)):
+                min_index = np.argmin(distance_arr[i])
+                cur_case_representor[int(key), min_index] += 1
+        representers.append(cur_case_representor.flatten())
     return representers, labeles
 
 
@@ -75,23 +66,21 @@ def execute_classify(train_features, train_labels, val_features, val_labels, tes
     print 'ACA is ', accs
     return accs
 
-
 def generate_representor_multidir(data_dir, patch_dir, reload=None):
-    import scipy.io as scio
     if reload is None:
-        train_features, train_labels = generate_representor(data_dir, dictionary_path=patch_dir,
+        train_features, train_labels = generate_representor(data_dir, patch_dir=patch_dir,
                                                              subclass='train')
         scio.savemat('./training.mat', {
             'features': train_features,
             'labels': train_labels
         })
-        test_features, test_labels = generate_representor(data_dir, dictionary_path=patch_dir,
+        test_features, test_labels = generate_representor(data_dir, patch_dir=patch_dir,
                                                           subclass='test')
         scio.savemat('./testing.mat', {
             'features': test_features,
             'labels': test_labels
         })
-        val_features, val_labels = generate_representor(data_dir, dictionary_path=patch_dir, subclass='val')
+        val_features, val_labels = generate_representor(data_dir, patch_dir=patch_dir, subclass='val')
         scio.savemat('./validation.mat', {
             'features': val_features,
             'labels': val_labels
@@ -108,14 +97,8 @@ def generate_representor_multidir(data_dir, patch_dir, reload=None):
         val_data = scio.loadmat('./validation.mat')
         val_features = val_data['features']
         val_labels = val_data['labels']
-    acc = execute_classify(train_features, train_labels, val_features, val_labels, test_features, test_labels)
-    return acc
-
-
+    execute_classify(train_features, train_labels, test_features, test_labels, test_features, test_labels)
 if __name__ == '__main__':
-    generate_representor_multidir(
-        patch_dir='/home/give/PycharmProjects/ICPR2018/LeaningBased/BoVW/dictionary.npy',
-        data_dir='/home/give/Documents/dataset/MedicalImage/MedicalImage/SL_TrainAndVal/ICIP',
-        reload=True
-    )
+    generate_representor_multidir(patch_dir='/home/give/Documents/dataset/ICPR2018/BoVW-TextSpecific-multiphase',
+                                  data_dir='/home/give/Documents/dataset/MedicalImage/MedicalImage/SL_TrainAndVal/ICIP')
 

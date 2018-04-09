@@ -13,90 +13,77 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ICPR2018$val.coverage" NAME="val Coverage Results" MODIFIED="1514990503809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/Patch_ROI" />
     <SUITE FILE_PATH="coverage/ICPR2018$val_DIY__1_.coverage" NAME="val_DIY (1) Coverage Results" MODIFIED="1515748496316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase" />
+    <SUITE FILE_PATH="coverage/ICPR2018$generate_heatingmap__2_.coverage" NAME="generate_heatingmap (2) Coverage Results" MODIFIED="1516365373145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/Patch_ROI" />
     <SUITE FILE_PATH="coverage/ICPR2018$train_imagenet_DIY.coverage" NAME="train_imagenet_DIY Coverage Results" MODIFIED="1515740798610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase" />
-    <SUITE FILE_PATH="coverage/ICPR2018$selected_patches.coverage" NAME="selected_patches Coverage Results" MODIFIED="1515130846575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased" />
     <SUITE FILE_PATH="coverage/ICPR2018$convert.coverage" NAME="convert Coverage Results" MODIFIED="1515662251148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased/SparseCoding" />
     <SUITE FILE_PATH="coverage/ICPR2018$classification_heatingmap.coverage" NAME="classification_heatingmap Coverage Results" MODIFIED="1515829596190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss" />
     <SUITE FILE_PATH="coverage/ICPR2018$resnet.coverage" NAME="resnet Coverage Results" MODIFIED="1515729060630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss" />
-    <SUITE FILE_PATH="coverage/ICPR2018$main.coverage" NAME="main Coverage Results" MODIFIED="1515829888896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased/BoVW" />
+    <SUITE FILE_PATH="coverage/ICPR2018$main.coverage" NAME="main Coverage Results" MODIFIED="1523159216287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased/BoVW-CO" />
     <SUITE FILE_PATH="coverage/ICPR2018$classification_heatingmap__1_.coverage" NAME="classification_heatingmap (1) Coverage Results" MODIFIED="1515859345171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase" />
-    <SUITE FILE_PATH="coverage/ICPR2018$ExtractPatches.coverage" NAME="ExtractPatches Coverage Results" MODIFIED="1515679935779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased/SparseCoding" />
-    <SUITE FILE_PATH="coverage/ICPR2018$GenerateDictionary.coverage" NAME="GenerateDictionary Coverage Results" MODIFIED="1515171999097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased/BoVW-texturespecific" />
-    <SUITE FILE_PATH="coverage/ICPR2018$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1515720519812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased/BoVW" />
+    <SUITE FILE_PATH="coverage/ICPR2018$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1523170599186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased/BoVW-NGram" />
     <SUITE FILE_PATH="coverage/ICPR2018$val_DIY.coverage" NAME="val_DIY Coverage Results" MODIFIED="1515742563580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss" />
-    <SUITE FILE_PATH="coverage/ICPR2018$main_xubo.coverage" NAME="main_xubo Coverage Results" MODIFIED="1515222649732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased/BoVW-MI" />
-    <SUITE FILE_PATH="coverage/ICPR2018$ExtractPatches__1_.coverage" NAME="ExtractPatches (1) Coverage Results" MODIFIED="1515719550964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased/BoVW" />
     <SUITE FILE_PATH="coverage/ICPR2018$train_imagenet_DIY__1_.coverage" NAME="train_imagenet_DIY (1) Coverage Results" MODIFIED="1515730710624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss" />
     <SUITE FILE_PATH="coverage/ICPR2018$load_input.coverage" NAME="load_input Coverage Results" MODIFIED="1514987793685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased/BoVW-MI" />
-    <SUITE FILE_PATH="coverage/ICPR2018$BovW.coverage" NAME="BovW Coverage Results" MODIFIED="1515216213208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased/BoVW_DualDict" />
-    <SUITE FILE_PATH="coverage/ICPR2018$ExtractPatch.coverage" NAME="ExtractPatch Coverage Results" MODIFIED="1515068747310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased" />
-    <SUITE FILE_PATH="coverage/ICPR2018$LearnDict.coverage" NAME="LearnDict Coverage Results" MODIFIED="1515829387748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased/BoVW" />
-    <SUITE FILE_PATH="coverage/ICPR2018$generate_heatingmap__1_.coverage" NAME="generate_heatingmap (1) Coverage Results" MODIFIED="1515748826778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase" />
-    <SUITE FILE_PATH="coverage/ICPR2018$learn.coverage" NAME="learn Coverage Results" MODIFIED="1515676549891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased/SparseCoding" />
-    <SUITE FILE_PATH="coverage/ICPR2018$generate_heatingmap.coverage" NAME="generate_heatingmap Coverage Results" MODIFIED="1515736748140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss" />
+    <SUITE FILE_PATH="coverage/ICPR2018$BovW.coverage" NAME="BovW Coverage Results" MODIFIED="1516881395629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased/BoVW_DualDict" />
+    <SUITE FILE_PATH="coverage/ICPR2018$generate_heatingmap__1_.coverage" NAME="generate_heatingmap (1) Coverage Results" MODIFIED="1516365208359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase" />
+    <SUITE FILE_PATH="coverage/ICPR2018$generate_heatingmap.coverage" NAME="generate_heatingmap Coverage Results" MODIFIED="1516022946161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss" />
+    <SUITE FILE_PATH="coverage/ICPR2018$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1516885166691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased/BoVW-texturespecific" />
+    <SUITE FILE_PATH="coverage/ICPR2018$learn.coverage" NAME="learn Coverage Results" MODIFIED="1523166637537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased/BoVW-NGram" />
     <SUITE FILE_PATH="coverage/ICPR2018$test.coverage" NAME="test Coverage Results" MODIFIED="1515173249281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased/BoVW-texturespecific" />
+    <SUITE FILE_PATH="coverage/ICPR2018$val.coverage" NAME="val Coverage Results" MODIFIED="1514990503809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/Patch_ROI" />
+    <SUITE FILE_PATH="coverage/ICPR2018$selected_patches.coverage" NAME="selected_patches Coverage Results" MODIFIED="1515130846575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased" />
+    <SUITE FILE_PATH="coverage/ICPR2018$ExtractPatches.coverage" NAME="ExtractPatches Coverage Results" MODIFIED="1523164178421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased/BoVW-NGram" />
+    <SUITE FILE_PATH="coverage/ICPR2018$GenerateDictionary.coverage" NAME="GenerateDictionary Coverage Results" MODIFIED="1515994137738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased/BoVW-texturespecific-multiphase" />
+    <SUITE FILE_PATH="coverage/ICPR2018$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1516890818488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased/BoVW-DualDict-New" />
+    <SUITE FILE_PATH="coverage/ICPR2018$main_xubo.coverage" NAME="main_xubo Coverage Results" MODIFIED="1516891405396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased/BoVW-MI" />
+    <SUITE FILE_PATH="coverage/ICPR2018$ExtractPatches__1_.coverage" NAME="ExtractPatches (1) Coverage Results" MODIFIED="1516000009819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased/BoVW-CO" />
+    <SUITE FILE_PATH="coverage/ICPR2018$case_test__1_.coverage" NAME="case_test (1) Coverage Results" MODIFIED="1516022710608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased/BoVW-CO" />
+    <SUITE FILE_PATH="coverage/ICPR2018$ExtractPatch.coverage" NAME="ExtractPatch Coverage Results" MODIFIED="1523110785695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased" />
+    <SUITE FILE_PATH="coverage/ICPR2018$LearnDict.coverage" NAME="LearnDict Coverage Results" MODIFIED="1515829387748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased/BoVW" />
+    <SUITE FILE_PATH="coverage/ICPR2018$case_test.coverage" NAME="case_test Coverage Results" MODIFIED="1516022894492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeaningBased/BoVW" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ExtractPatches.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW/ExtractPatches.py">
+      <file leaf-file-name="integrate.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataset/integrate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="100" column="4" lean-forward="false" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LearnDict.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW/LearnDict.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="classification_heatingmap.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/classification_heatingmap.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="119" column="10" lean-forward="false" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tools.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/Tools.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="447" column="29" lean-forward="false" selection-start-line="447" selection-start-column="19" selection-end-line="447" selection-end-column="29" />
+            <state relative-caret-position="20">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW/main.py">
+        <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW-DualDict-New/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="88" column="93" lean-forward="false" selection-start-line="88" selection-start-column="93" selection-end-line="88" selection-end-column="93" />
+            <state relative-caret-position="136">
+              <caret line="116" column="4" lean-forward="false" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classification_heatingmap.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase/classification_heatingmap.py">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW-CO/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="668">
-              <caret line="114" column="12" lean-forward="false" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="12" />
+            <state relative-caret-position="104">
+              <caret line="34" column="52" lean-forward="false" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW-NGram/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="127" column="16" lean-forward="false" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,38 +91,62 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="380">
+              <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generate_heatingmap.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase/generate_heatingmap.py">
+      <file leaf-file-name="text.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/feature_extraction/text.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="355" column="112" lean-forward="false" selection-start-line="355" selection-start-column="112" selection-end-line="355" selection-end-column="112" />
+            <state relative-caret-position="76">
+              <caret line="1357" column="8" lean-forward="false" selection-start-line="1357" selection-start-column="8" selection-end-line="1357" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="session.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py">
+      <file leaf-file-name="classification.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW_DualDict/classification.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="1116" column="56" lean-forward="false" selection-start-line="1116" selection-start-column="56" selection-end-line="1119" selection-end-column="0" />
+            <state relative-caret-position="196">
+              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="checkpoint" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/models/parameters/checkpoint">
+      <file leaf-file-name="learn.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW-NGram/learn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="114" lean-forward="false" selection-start-line="0" selection-start-column="114" selection-end-line="0" selection-end-column="114" />
+            <state relative-caret-position="329">
+              <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExtractPatches.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW-NGram/ExtractPatches.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1069">
+              <caret line="172" column="112" lean-forward="false" selection-start-line="172" selection-start-column="112" selection-end-line="172" selection-end-column="112" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExtractPatches.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW-CO/ExtractPatches.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -152,18 +163,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>MI SELECT NUM is</find>
-      <find>valication max accuracy is  0.</find>
-      <find>valication max accuracy is  0.4</find>
-      <find>extract_interior_boundary_patch_npy</find>
-      <find>extract_interior_patch_npy</find>
-      <find>array</find>
-      <find>split_array</find>
-      <find>print</find>
-      <find>True</find>
-      <find>endswith</find>
-      <find>repres</find>
-      <find>generate_train_val_features</find>
       <find>trainDL</find>
       <find>Kmea</find>
       <find>logits</find>
@@ -171,6 +170,29 @@
       <find>accuracy value 0.8</find>
       <find>label is 3,</find>
       <find>x tensor:</find>
+      <find>Iterator</find>
+      <find>init</find>
+      <find>flatten</find>
+      <find>accuracy_score</find>
+      <find>histogram</find>
+      <find>main</find>
+      <find>bn</find>
+      <find>Config</find>
+      <find>load_patch</find>
+      <find>resize_images</find>
+      <find>top_k_error</find>
+      <find>record_loss</find>
+      <find>generate_represe</find>
+      <find>extract_patches_multidir</find>
+      <find>start</find>
+      <find>test</find>
+      <find>extract_patches_multifiles_boundary</find>
+      <find>boundary</find>
+      <find>interior</find>
+      <find>extract patches from</find>
+      <find>train_op</find>
+      <find>convert2</find>
+      <find>convert</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -179,49 +201,56 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/utils/__init__.py" />
-        <option value="$PROJECT_DIR$/DeepLearning/Patch_ROI/val_DIY.py" />
-        <option value="$PROJECT_DIR$/DeepLearning/Patch_ROI/README.md" />
-        <option value="$PROJECT_DIR$/LeaningBased/ExtractPatch.py" />
-        <option value="$PROJECT_DIR$/LeaningBased/selected_patches.py" />
-        <option value="$PROJECT_DIR$/LeaningBased/BoVW-texturespecific/__init__.py" />
-        <option value="$PROJECT_DIR$/utils/Tools.py" />
-        <option value="$PROJECT_DIR$/LeaningBased/BoVW-texturespecific/ExtractPatches.py" />
-        <option value="$PROJECT_DIR$/LeaningBased/BoVW-texturespecific/GenerateDictionary.py" />
-        <option value="$PROJECT_DIR$/LeaningBased/BoVW-texturespecific/test.py" />
-        <option value="$PROJECT_DIR$/LeaningBased/BoVW-texturespecific/result" />
-        <option value="$PROJECT_DIR$/LeaningBased/BoVW_DualDict/classification.py" />
-        <option value="$PROJECT_DIR$/LeaningBased/BoVW-texturespecific/main.py" />
-        <option value="$PROJECT_DIR$/LeaningBased/BoVW_DualDict/BovW.py" />
-        <option value="$PROJECT_DIR$/LeaningBased/BoVW-MI/main_xubo.py" />
-        <option value="$PROJECT_DIR$/LeaningBased/SparseCoding/convert.py" />
-        <option value="$PROJECT_DIR$/LeaningBased/SparseCoding/learn.py" />
-        <option value="$PROJECT_DIR$/LeaningBased/SparseCoding/ExtractPatches.py" />
-        <option value="$PROJECT_DIR$/LeaningBased/SparseCoding/readme.md" />
-        <option value="$PROJECT_DIR$/LeaningBased/BoVW/ExtractPatches.py" />
-        <option value="$PROJECT_DIR$/LeaningBased/SparseCoding/main.py" />
-        <option value="$PROJECT_DIR$/DeepLearning/__init__.py" />
-        <option value="$PROJECT_DIR$/DeepLearning/Patch_ROI/resnet_train_DIY.py" />
-        <option value="$PROJECT_DIR$/DeepLearning/Patch_ROI/train_imagenet_DIY.py" />
-        <option value="$PROJECT_DIR$/DeepLearning/Patch_ROI/resnet.py" />
-        <option value="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/train_imagenet_DIY.py" />
-        <option value="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/resnet_train_DIY.py" />
-        <option value="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/resnet.py" />
         <option value="$PROJECT_DIR$/DeepLearning/classification.py" />
         <option value="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/classification_heatingmap.py" />
         <option value="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/models/2880.0/checkpoint" />
         <option value="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/val_DIY.py" />
         <option value="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/models/checkpoint" />
         <option value="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase/train_imagenet_DIY.py" />
-        <option value="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase/resnet.py" />
         <option value="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase/val_DIY.py" />
-        <option value="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/generate_heatingmap.py" />
         <option value="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase/classification_heatingmap.py" />
         <option value="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase/models/checkpoint" />
-        <option value="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase/generate_heatingmap.py" />
+        <option value="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/generate_heatingmap.py" />
+        <option value="$PROJECT_DIR$/LeaningBased/BoVW-texturespecific-multiphase/GenerateDictionary.py" />
+        <option value="$PROJECT_DIR$/LeaningBased/BoVW-texturespecific-multiphase/ExtractPatches.py" />
+        <option value="$PROJECT_DIR$/LeaningBased/BoVW-texturespecific-multiphase/main.py" />
         <option value="$PROJECT_DIR$/LeaningBased/BoVW/LearnDict.py" />
+        <option value="$PROJECT_DIR$/LeaningBased/xubo/main.py" />
+        <option value="$PROJECT_DIR$/LeaningBased/BoVW-CO/learn.py" />
+        <option value="$PROJECT_DIR$/LeaningBased/BoVW/__init__.py" />
+        <option value="$PROJECT_DIR$/LeaningBased/BoVW-CO/case_test.py" />
+        <option value="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase/generate_heatingmap.py" />
+        <option value="$PROJECT_DIR$/DeepLearning/Patch_ROI/generate_heatingmap.py" />
+        <option value="$PROJECT_DIR$/OurMethod/resnet.py" />
+        <option value="$PROJECT_DIR$/LeaningBased/BoVW/case_test.py" />
+        <option value="$PROJECT_DIR$/OurMethod/__init__.py" />
+        <option value="$PROJECT_DIR$/OurMethod/utils/Tools.py" />
+        <option value="$PROJECT_DIR$/OurMethod/train_imagenet_DIY.py" />
+        <option value="$PROJECT_DIR$/OurMethod/resnet_val.py" />
+        <option value="$PROJECT_DIR$/OurMethod/resnet_train_DIY.py" />
+        <option value="$PROJECT_DIR$/OurMethod/generate_heatingmap.py" />
+        <option value="$PROJECT_DIR$/OurMethod/classification_heatingmap.py" />
+        <option value="$PROJECT_DIR$/OurMethod/README.md" />
+        <option value="$PROJECT_DIR$/OurMethod/val_DIY.py" />
+        <option value="$PROJECT_DIR$/OurMethod/.gitignore" />
+        <option value="$PROJECT_DIR$/LeaningBased/BoVW-texturespecific/main.py" />
+        <option value="$PROJECT_DIR$/LeaningBased/BoVW_DualDict/BovW.py" />
+        <option value="$PROJECT_DIR$/LeaningBased/SparseCoding/main.py" />
+        <option value="$PROJECT_DIR$/LeaningBased/BoVW/ExtractPatches.py" />
         <option value="$PROJECT_DIR$/LeaningBased/BoVW/main.py" />
+        <option value="$PROJECT_DIR$/LeaningBased/BoVW-DualDict-New/learn.py" />
+        <option value="$PROJECT_DIR$/LeaningBased/BoVW-DualDict-New/ExtractPatches.py" />
+        <option value="$PROJECT_DIR$/LeaningBased/BoVW-DualDict-New/main.py" />
+        <option value="$PROJECT_DIR$/LeaningBased/BoVW-MI/main_xubo.py" />
+        <option value="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase/resnet.py" />
+        <option value="$PROJECT_DIR$/DeepLearning/Patch_ROI/resnet_train_DIY.py" />
+        <option value="$PROJECT_DIR$/dataset/integrate.py" />
+        <option value="$PROJECT_DIR$/LeaningBased/ExtractPatch.py" />
+        <option value="$PROJECT_DIR$/LeaningBased/BoVW-CO/main.py" />
+        <option value="$PROJECT_DIR$/LeaningBased/BoVW-CO/ExtractPatches.py" />
+        <option value="$PROJECT_DIR$/LeaningBased/BoVW-NGram/ExtractPatches.py" />
+        <option value="$PROJECT_DIR$/LeaningBased/BoVW-NGram/learn.py" />
+        <option value="$PROJECT_DIR$/LeaningBased/BoVW-NGram/main.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -254,6 +283,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -276,7 +306,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
+              <option name="myItemId" value="LeaningBased" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -290,29 +320,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DeepLearning" />
+              <option name="myItemId" value="LeaningBased" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BoVW-texturespecific" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ICPR2018" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ICPR2018" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeaningBased" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BoVW-NGram" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/LeaningBased/BoVW-texturespecific/test.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase/models" />
-      <recent name="$PROJECT_DIR$/DeepLearning" />
-      <recent name="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/models" />
-      <recent name="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/models/2880.0" />
-      <recent name="$PROJECT_DIR$/LeaningBased/SparseCoding" />
+      <recent name="$PROJECT_DIR$/LeaningBased" />
+      <recent name="$PROJECT_DIR$/LeaningBased/BoVW-MI/original" />
+      <recent name="$PROJECT_DIR$/LeaningBased/BoVW-MI" />
+      <recent name="$PROJECT_DIR$/LeaningBased/BoVW-DualDict-New" />
+      <recent name="$PROJECT_DIR$/OurMethod" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/LeaningBased/BoVW-NGram/patches/train" />
       <recent name="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase/mat/0.87" />
       <recent name="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/models/parameters" />
       <recent name="$PROJECT_DIR$/LeaningBased/BoVW_DualDict/find_best/previous" />
@@ -331,40 +383,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.classification_heatingmap (1)">
-    <configuration default="false" name="generate_heatingmap (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.main (2)">
+    <configuration default="false" name="ExtractPatch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeaningBased" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ICPR2018" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase/generate_heatingmap.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="classification_heatingmap (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ICPR2018" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase/classification_heatingmap.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeaningBased/ExtractPatch.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -377,51 +410,70 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeaningBased/BoVW" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeaningBased/BoVW-CO" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ICPR2018" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeaningBased/BoVW/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeaningBased/BoVW-CO/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="LearnDict" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeaningBased/BoVW" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeaningBased/BoVW-NGram" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ICPR2018" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeaningBased/BoVW/LearnDict.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeaningBased/BoVW-NGram/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="classification_heatingmap" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="ExtractPatches" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeaningBased/BoVW-NGram" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ICPR2018" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/classification_heatingmap.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeaningBased/BoVW-NGram/ExtractPatches.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="learn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeaningBased/BoVW-NGram" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ICPR2018" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeaningBased/BoVW-NGram/learn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -611,19 +663,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.test" />
-      <item index="1" class="java.lang.String" itemvalue="Python.generate_heatingmap (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.classification_heatingmap (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.main" />
-      <item index="4" class="java.lang.String" itemvalue="Python.LearnDict" />
-      <item index="5" class="java.lang.String" itemvalue="Python.classification_heatingmap" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ExtractPatch" />
+      <item index="2" class="java.lang.String" itemvalue="Python.main" />
+      <item index="3" class="java.lang.String" itemvalue="Python.main (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ExtractPatches" />
+      <item index="5" class="java.lang.String" itemvalue="Python.learn" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.classification_heatingmap (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main" />
-        <item index="2" class="java.lang.String" itemvalue="Python.classification_heatingmap" />
-        <item index="3" class="java.lang.String" itemvalue="Python.LearnDict" />
-        <item index="4" class="java.lang.String" itemvalue="Python.generate_heatingmap (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.learn" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ExtractPatches" />
+        <item index="3" class="java.lang.String" itemvalue="Python.main" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ExtractPatch" />
       </list>
     </recent_temporary>
   </component>
@@ -640,24 +692,32 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32672232" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32672232" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32881" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27086788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30071864" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4269311" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42729306" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -665,6 +725,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -681,182 +742,269 @@
           <url>file://$PROJECT_DIR$/LeaningBased/BoVW-texturespecific/main.py</url>
           <line>23</line>
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LeaningBased/BoVW-CO/main.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LeaningBased/BoVW-CO/main.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LeaningBased/BoVW-CO/ExtractPatches.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LeaningBased/BoVW-NGram/ExtractPatches.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LeaningBased/BoVW-NGram/main.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW_DualDict/classification.py">
+    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW-MI/SVM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="72" column="25" lean-forward="false" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="149">
+          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/Patched/resnet.py">
+    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW_DualDict/selected_patches.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1380">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW-MI/main_xubo.py">
+    <entry file="file://$PROJECT_DIR$/LeaningBased/selected_patches.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6240">
-          <caret line="320" column="92" lean-forward="false" selection-start-line="320" selection-start-column="92" selection-end-line="320" selection-end-column="92" />
-          <folding>
-            <element signature="e#39#76#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/spams.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49020">
-          <caret line="2456" column="4" lean-forward="false" selection-start-line="2456" selection-start-column="4" selection-end-line="2456" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/scipy/sparse/construct.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="217">
+          <caret line="80" column="67" lean-forward="false" selection-start-line="80" selection-start-column="66" selection-end-line="80" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LeaningBased/SparseCoding/convert.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/ksvd/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeaningBased/SparseCoding/learn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW-texturespecific/GenerateDictionary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="31" column="14" lean-forward="false" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW-texturespecific/ExtractPatches.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#48#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW-texturespecific/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="73" column="27" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeaningBased/SparseCoding/ExtractPatches.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="130" column="46" lean-forward="true" selection-start-line="130" selection-start-column="46" selection-end-line="130" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-1247972723/numpy/core/umath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="3693" column="4" lean-forward="false" selection-start-line="3693" selection-start-column="4" selection-end-line="3693" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeaningBased/SparseCoding/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="100">
-            <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/cluster/k_means_.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16200">
-          <caret line="834" column="8" lean-forward="false" selection-start-line="834" selection-start-column="8" selection-end-line="834" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW_DualDict/BovW.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="83" column="4" lean-forward="false" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
-          <folding>
-            <element signature="e#23#32#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LeaningBased/SparseCoding/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="88" column="95" lean-forward="false" selection-start-line="88" selection-start-column="95" selection-end-line="88" selection-end-column="95" />
-          <folding>
-            <element signature="e#0#9#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="349">
+          <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI/generate_heatingmap.py">
+    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW/LearnDict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="500">
+          <caret line="28" column="68" lean-forward="false" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeaningBased/SparseCoding/ExtractPatches.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-294">
+          <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW-CO/learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="34" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/pickle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="876" column="26" lean-forward="false" selection-start-line="876" selection-start-column="26" selection-end-line="876" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW-texturespecific/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="67" column="66" lean-forward="false" selection-start-line="67" selection-start-column="66" selection-end-line="67" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/__init__.py">
+    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW-texturespecific/ExtractPatches.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW_DualDict/BovW.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5700">
+          <caret line="293" column="116" lean-forward="false" selection-start-line="293" selection-start-column="38" selection-end-line="293" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW-DualDict-New/learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="49" column="83" lean-forward="false" selection-start-line="49" selection-start-column="83" selection-end-line="49" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/multiprocessing/pool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5620">
+          <caret line="288" column="8" lean-forward="false" selection-start-line="288" selection-start-column="8" selection-end-line="288" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW-DualDict-New/ExtractPatches.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2220">
+          <caret line="117" column="30" lean-forward="false" selection-start-line="117" selection-start-column="30" selection-end-line="117" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW-MI/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2720">
+          <caret line="142" column="24" lean-forward="false" selection-start-line="142" selection-start-column="4" selection-end-line="142" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW-MI/main_xubo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8180">
+          <caret line="417" column="31" lean-forward="false" selection-start-line="417" selection-start-column="31" selection-end-line="417" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurMethod/classification_heatingmap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2360">
+          <caret line="121" column="53" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="121" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurMethod/generate_heatingmap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4680">
+          <caret line="243" column="85" lean-forward="false" selection-start-line="243" selection-start-column="85" selection-end-line="243" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurMethod/resnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="99" column="12" lean-forward="false" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/resnet_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/resnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6560">
+          <caret line="338" column="20" lean-forward="false" selection-start-line="338" selection-start-column="20" selection-end-line="339" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/train_imagenet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/train_imagenet_DIY.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/resnet_train_DIY.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6680">
+          <caret line="341" column="4" lean-forward="false" selection-start-line="341" selection-start-column="4" selection-end-line="341" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW/ExtractPatches.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1880">
+          <caret line="100" column="4" lean-forward="false" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase/resnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5640">
+          <caret line="292" column="0" lean-forward="false" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase/generate_heatingmap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7260">
+          <caret line="373" column="30" lean-forward="false" selection-start-line="373" selection-start-column="30" selection-end-line="373" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepLearning/Patched/train_imagenet_DIY.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="52" column="7" lean-forward="false" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI/resnet_train_DIY.py">
+    <entry file="file://$PROJECT_DIR$/DeepLearning/Patched/resnet_train_DIY.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="295" column="39" lean-forward="false" selection-start-line="295" selection-start-column="39" selection-end-line="295" selection-end-column="39" />
-          <folding>
-            <element signature="e#23#43#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="6840">
+          <caret line="349" column="66" lean-forward="false" selection-start-line="349" selection-start-column="8" selection-end-line="349" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -868,250 +1016,159 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI/Config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI/resnet_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#20#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI/resnet_train_DIY.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5380">
+          <caret line="276" column="115" lean-forward="false" selection-start-line="276" selection-start-column="115" selection-end-line="276" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI/train_imagenet_DIY.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-          <folding>
-            <element signature="e#23#57#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="720">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI/resnet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="292" column="4" lean-forward="false" selection-start-line="292" selection-start-column="4" selection-end-line="292" selection-end-column="4" />
+        <state relative-caret-position="120">
+          <caret line="297" column="7" lean-forward="false" selection-start-line="297" selection-start-column="7" selection-end-line="332" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/config.py">
+    <entry file="file://$PROJECT_DIR$/utils/classification.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI/classification_heatingmap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/scipy/io/matlab/mio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/resnet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="89" column="4" lean-forward="false" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/models/2880.0/checkpoint">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="99" lean-forward="false" selection-start-line="0" selection-start-column="99" selection-end-line="0" selection-end-column="99" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/train_imagenet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-420">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/train_imagenet_DIY.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="54" column="5" lean-forward="false" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-          <folding>
-            <element signature="e#23#57#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/resnet_train_DIY.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="279" column="4" lean-forward="false" selection-start-line="279" selection-start-column="4" selection-end-line="279" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/val.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase/resnet_train_DIY.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="279" column="4" lean-forward="false" selection-start-line="279" selection-start-column="4" selection-end-line="279" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase/train_imagenet_DIY.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase/resnet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="308" column="4" lean-forward="false" selection-start-line="308" selection-start-column="4" selection-end-line="308" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/val_DIY.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="152" column="31" lean-forward="false" selection-start-line="152" selection-start-column="31" selection-end-line="152" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/generate_heatingmap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="89" lean-forward="false" selection-start-line="17" selection-start-column="89" selection-end-line="17" selection-end-column="89" />
-          <folding>
-            <element signature="e#23#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/classification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="95" column="23" lean-forward="false" selection-start-line="95" selection-start-column="15" selection-end-line="95" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase/val_DIY.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="137" column="11" lean-forward="true" selection-start-line="137" selection-start-column="11" selection-end-line="137" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase/models/checkpoint">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/models/checkpoint">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="120" lean-forward="false" selection-start-line="1" selection-start-column="120" selection-end-line="1" selection-end-column="120" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/models/parameters/checkpoint">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="114" lean-forward="false" selection-start-line="0" selection-start-column="114" selection-end-line="0" selection-end-column="114" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase/generate_heatingmap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="355" column="112" lean-forward="false" selection-start-line="355" selection-start-column="112" selection-end-line="355" selection-end-column="112" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="1116" column="56" lean-forward="false" selection-start-line="1116" selection-start-column="56" selection-end-line="1119" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW/ExtractPatches.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="100" column="4" lean-forward="false" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW/LearnDict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss/classification_heatingmap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="119" column="10" lean-forward="false" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
+        <state relative-caret-position="60">
+          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/Tools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="447" column="29" lean-forward="false" selection-start-line="447" selection-start-column="19" selection-end-line="447" selection-end-column="29" />
+        <state relative-caret-position="295">
+          <caret line="451" column="72" lean-forward="false" selection-start-line="426" selection-start-column="0" selection-end-line="451" selection-end-column="72" />
+          <folding>
+            <element signature="e#24#42#0" expanded="false" />
+            <element signature="e#13206#14317#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeaningBased/ExtractPatch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="501" column="30" lean-forward="false" selection-start-line="501" selection-start-column="30" selection-end-line="501" selection-end-column="30" />
+          <folding>
+            <element signature="e#6421#9634#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/integrate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW/main.py">
+    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW-DualDict-New/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="88" column="93" lean-forward="false" selection-start-line="88" selection-start-column="93" selection-end-line="88" selection-end-column="93" />
+        <state relative-caret-position="136">
+          <caret line="116" column="4" lean-forward="false" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/Patch_ROI_multiloss_multiphase/classification_heatingmap.py">
+    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW-CO/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="114" column="12" lean-forward="false" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="12" />
+        <state relative-caret-position="104">
+          <caret line="34" column="52" lean-forward="false" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW-CO/ExtractPatches.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW-NGram/ExtractPatches.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1069">
+          <caret line="172" column="112" lean-forward="false" selection-start-line="172" selection-start-column="112" selection-end-line="172" selection-end-column="112" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW-NGram/learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW_DualDict/classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/sklearn/feature_extraction/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="1357" column="8" lean-forward="false" selection-start-line="1357" selection-start-column="8" selection-end-line="1357" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeaningBased/BoVW-NGram/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="127" column="16" lean-forward="false" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="380">
+          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
           <folding />
         </state>
       </provider>

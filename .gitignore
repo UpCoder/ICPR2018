@@ -1,3 +1,6 @@
+.gitignore
+*.py[cod]
+*.npy
 /utils/*.pyc
 /LearningBased/*.pyc
 /LearningBased/*.npy
@@ -13,6 +16,8 @@
 /LearningBased/BoVW_DualDict/*
 /LearningBased/SparseCoding/*.npy
 /LearningBased/SparseCoding/*.pyc
+/LearningBased/BoVW-NGram/patches/*
+/LearningBased/BoVW-NGram/vocabulary/*
 /DeepLearning/Frid-Adar/*
 /DeepLearning/Patch_ROI_Frid-Adar/*
 /DeepLearning/Patch_ROI/*

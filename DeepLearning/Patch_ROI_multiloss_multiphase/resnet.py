@@ -290,6 +290,7 @@ def inference_small_config_bilstm(xs_expand, c, phase_names, xs_names=['ROI', 'E
             x = fc(outputs, c)
     print 'x is ', x
     return x
+
 # ConvNet->reduce_mean->concat->FC
 def inference_small_config_pre(xs_expand, c, phase_names, co_occurrence=False, xs_names=['Patch', 'ROI'], batch_size=None,ksize=[3, 3], pointed_phase=[0, 1, 2]):
     c['bottleneck'] = False

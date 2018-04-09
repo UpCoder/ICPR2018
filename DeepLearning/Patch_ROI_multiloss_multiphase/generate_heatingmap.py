@@ -9,7 +9,8 @@ from PIL import Image
 from Config import Config as net_config
 from resnet import inference_small
 import sys
-import scipy.io as scio
+import time
+
 phasenames=['NC', 'ART', 'PV']
 mhd_adjust = False
 
@@ -251,6 +252,7 @@ def generate_heatmap_version2(data_path, pointed_phase_index, patch_size, save_p
     :param save_path:
     :return:
     '''
+    start_time = time.time()
     mhd_images = []
     mask_images = []
     for phase_name in ['NC', 'ART', 'PV']:
@@ -310,6 +312,8 @@ def generate_heatmap_version2(data_path, pointed_phase_index, patch_size, save_p
             statics[predicted_labels[start_index]] += 1
             start_index += 1
     print statics
+    end_time = time.time()
+    print 'cost time is ', (end_time - start_time)
     save_mhd_image(new_mask_image, save_path)
 
 
@@ -344,32 +348,32 @@ if __name__ == '__main__':
     #     )
 
 
-    for subclass in ['test', 'train', 'val']:
-        sub_features = []
-        sub_labels = []
-        for type in [3, 2, 0, 1]:
-            features, labels = generate_heatingmaps(
-                '/home/give/Documents/dataset/MedicalImage/MedicalImage/SL_TrainAndVal/ICIP/' + subclass,
-                type,
-                8,
-                os.path.join(
-                    '/home/give/Documents/dataset/ICPR2018/heatingmap/Patch_ROI_multiphase_cooccurrence_version2',
-                    subclass
-                )
-            )
-            sub_features.extend(features)
-            sub_labels.extend(labels)
-            print features, labels
-            print np.shape(features), np.shape(labels)
-        scio.savemat('./mat/'+subclass+'.npy', {
-            'features': sub_features,
-            'labels': sub_labels
-        })
+    # for subclass in ['test', 'train', 'val']:
+    #     sub_features = []
+    #     sub_labels = []
+    #     for type in [3, 2, 0, 1]:
+    #         features, labels = generate_heatingmaps(
+    #             '/home/give/Documents/dataset/MedicalImage/MedicalImage/SL_TrainAndVal/ICIP/' + subclass,
+    #             type,
+    #             8,
+    #             os.path.join(
+    #                 '/home/give/Documents/dataset/ICPR2018/heatingmap/Patch_ROI_multiphase_cooccurrence_version2',
+    #                 subclass
+    #             )
+    #         )
+    #         sub_features.extend(features)
+    #         sub_labels.extend(labels)
+    #         print features, labels
+    #         print np.shape(features), np.shape(labels)
+    #     scio.savemat('./mat/'+subclass+'.npy', {
+    #         'features': sub_features,
+    #         'labels': sub_labels
+    #     })
 
-    # data_path = '/home/give/Documents/dataset/MedicalImage/MedicalImage/SL_TrainAndVal/ICIP/visualize/3608006_3201151_0_0_2'
-    # generate_heatmap_version2(
-    #     data_path,
-    #     2,
-    #     8,
-    #     data_path + '/PV_labelmap.mhd'
-    # )
+    data_path = '/home/give/Documents/dataset/MedicalImage/MedicalImage/SL_TrainAndVal/ICIP/visualize/3080765_2399326_0_0_2'
+    generate_heatmap_version2(
+        data_path,
+        2,
+        8,
+        data_path + '/PV_labelmap.mhd'
+    )

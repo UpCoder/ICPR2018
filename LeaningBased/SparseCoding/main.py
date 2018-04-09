@@ -40,12 +40,13 @@ def generate_representor(data_dir, dictionary_path, subclass):
     start = 0
     for case_index, count in enumerate(counts):
 
-        distance_arr = all_distance_arr[start: count]
+        distance_arr = all_distance_arr[start: start+count]
         cur_case_representor = np.zeros([1, vocabulary_size])
         for i in range(len(distance_arr)):
             min_index = np.argmin(distance_arr[i])
             cur_case_representor[0, min_index] += 1
         representers.append(cur_case_representor.squeeze())
+        start += count
         # patches_coding_labeles = {}
         # for patch_index, cur_patch in enumerate(cur_patches):
         #     cur_coding_label = coding_labeles[case_index][patch_index]
@@ -75,17 +76,44 @@ def execute_classify(train_features, train_labels, val_features, val_labels, tes
     return accs
 
 
-def generate_representor_multidir(data_dir, patch_dir):
-    train_features, train_labels = generate_representor(data_dir, dictionary_path=patch_dir,
-                                                         subclass='train')
-    test_features, test_labels = generate_representor(data_dir, dictionary_path=patch_dir,
-                                                      subclass='test')
-    val_features, val_labels = generate_representor(data_dir, dictionary_path=patch_dir, subclass='val')
-    execute_classify(train_features, train_labels, val_features, val_labels, test_features, test_labels)
+def generate_representor_multidir(data_dir, patch_dir, reload=None):
+    import scipy.io as scio
+    if reload is None:
+        train_features, train_labels = generate_representor(data_dir, dictionary_path=patch_dir,
+                                                             subclass='train')
+        scio.savemat('./training.mat', {
+            'features': train_features,
+            'labels': train_labels
+        })
+        test_features, test_labels = generate_representor(data_dir, dictionary_path=patch_dir,
+                                                          subclass='test')
+        scio.savemat('./testing.mat', {
+            'features': test_features,
+            'labels': test_labels
+        })
+        val_features, val_labels = generate_representor(data_dir, dictionary_path=patch_dir, subclass='val')
+        scio.savemat('./validation.mat', {
+            'features': val_features,
+            'labels': val_labels
+        })
+    else:
+        train_data = scio.loadmat('./training.mat')
+        train_features = train_data['features']
+        train_labels = train_data['labels']
+
+        test_data = scio.loadmat('./testing.mat')
+        test_features = test_data['features']
+        test_labels = test_data['labels']
+
+        val_data = scio.loadmat('./validation.mat')
+        val_features = val_data['features']
+        val_labels = val_data['labels']
+    acc = execute_classify(train_features, train_labels, val_features, val_labels, test_features, test_labels)
+    return acc
 
 
 if __name__ == '__main__':
     generate_representor_multidir(
-        patch_dir='/home/give/PycharmProjects/ICPR2018/LeaningBased/SparseCoding/dictionary_100.npy',
+        patch_dir='/home/give/PycharmProjects/ICPR2018/LeaningBased/SparseCoding/dictionary.npy',
         data_dir='/home/give/Documents/dataset/MedicalImage/MedicalImage/SL_TrainAndVal/ICIP')
 

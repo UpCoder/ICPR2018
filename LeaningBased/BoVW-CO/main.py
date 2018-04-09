@@ -2,6 +2,8 @@ import os
 import numpy as np
 from ExtractPatches import extract_patches_multidir
 from utils.Tools import calculate_acc_error
+import scipy.io as scio
+from sklearn.externals import joblib
 
 def cal_distance(patches, center):
     '''
@@ -23,6 +25,29 @@ def cal_distance(patches, center):
 
 def load_vocabulary(data_dir):
     return np.load(data_dir)
+
+
+def generate_representor_version2(data_dir, dictionary_path, subclass):
+    kmeans_model = joblib.load(dictionary_path)
+    shape_vocabulary = np.shape(kmeans_model.cluster_centers_)
+    vocabulary_size = shape_vocabulary[0]
+    representers = []
+    patches, coding_labeles, labeles = extract_patches_multidir(data_dir, subclasses=[subclass], return_flag=True)
+    all_patches = []
+    counts = []
+    for case_index, cur_patches in enumerate(patches):
+        print np.shape(cur_patches)
+        all_patches.extend(cur_patches)
+        counts.append(len(cur_patches))
+    print 'all patches shape are ', np.shape(all_patches)
+    predicted_labels = kmeans_model.predict(all_patches)
+    start = 0
+    for case_index, count in enumerate(counts):
+        cur_predicted_label = predicted_labels[start: start + count]
+        representer = np.histogram(cur_predicted_label, bins=vocabulary_size, normed=True)[0]
+        representers.append(np.array(representer).squeeze())
+        start += count
+    return representers, labeles
 
 
 def generate_representor(data_dir, dictionary_path, subclass):
@@ -77,21 +102,20 @@ def execute_classify(train_features, train_labels, val_features, val_labels, tes
 
 
 def generate_representor_multidir(data_dir, patch_dir, reload=None):
-    import scipy.io as scio
-    if reload is None:
-        train_features, train_labels = generate_representor(data_dir, dictionary_path=patch_dir,
+    if reload is None or (reload == False):
+        train_features, train_labels = generate_representor_version2(data_dir, dictionary_path=patch_dir,
                                                              subclass='train')
         scio.savemat('./training.mat', {
             'features': train_features,
             'labels': train_labels
         })
-        test_features, test_labels = generate_representor(data_dir, dictionary_path=patch_dir,
+        test_features, test_labels = generate_representor_version2(data_dir, dictionary_path=patch_dir,
                                                           subclass='test')
         scio.savemat('./testing.mat', {
             'features': test_features,
             'labels': test_labels
         })
-        val_features, val_labels = generate_representor(data_dir, dictionary_path=patch_dir, subclass='val')
+        val_features, val_labels = generate_representor_version2(data_dir, dictionary_path=patch_dir, subclass='val')
         scio.savemat('./validation.mat', {
             'features': val_features,
             'labels': val_labels
@@ -111,11 +135,18 @@ def generate_representor_multidir(data_dir, patch_dir, reload=None):
     acc = execute_classify(train_features, train_labels, val_features, val_labels, test_features, test_labels)
     return acc
 
-
 if __name__ == '__main__':
-    generate_representor_multidir(
-        patch_dir='/home/give/PycharmProjects/ICPR2018/LeaningBased/BoVW/dictionary.npy',
+    # from learn import generate_dictionary
+    # for i in range(10):
+    #     generate_dictionary(
+    #         save_path='/home/give/PycharmProjects/ICPR2018/LeaningBased/BoVW-CO/vocabulary/' + 'vocabulary_' + str(
+    #             i) + '.npy', vocabulary_size=128)
+    #     acc = generate_representor_multidir(
+    #         patch_dir='/home/give/PycharmProjects/ICPR2018/LeaningBased/BoVW-CO/vocabulary/'+'vocabulary_'+str(i)+'.npy',
+    #         data_dir='/home/give/Documents/dataset/MedicalImage/MedicalImage/SL_TrainAndVal/ICIP')
+    #     print 'Iterator %d, accuracy %.2f' % (i, acc)
+    acc = generate_representor_multidir(
+        patch_dir='/home/give/PycharmProjects/ICPR2018/LeaningBased/BoVW-CO/vocabulary.model',
         data_dir='/home/give/Documents/dataset/MedicalImage/MedicalImage/SL_TrainAndVal/ICIP',
-        reload=True
+        reload=None,
     )
-

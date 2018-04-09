@@ -26,7 +26,7 @@ def learn_dict(patch_path, limited, dict_size, dict_save_path):
         patches = patches[indexs[:limited]]
         allpatches.extend(patches)
     print np.shape(allpatches)
-    kmeans_obj = KMeans(n_clusters=dict_size, n_jobs=8).fit(allpatches)
+    kmeans_obj = KMeans(n_clusters=dict_size, n_jobs=8, max_iter=500).fit(allpatches)
     dictionary = kmeans_obj.cluster_centers_
     dictionary = np.array(dictionary)
     if dict_save_path is not None:
